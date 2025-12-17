@@ -110,5 +110,17 @@ Chaque fonction ne peut être exécutée que pendant sa phase correspondante.
 
 ---
 
+### Déploiement du contrat
+
+Commande pour déployer : forge script script/DeployVotingSystem.s.sol --rpc-url $SEPOLIA_RPC_URL --private-key $PRIVATE_KEY --broadcast
+
+Adresse du contrat mais identifié comme adresse: 0x3007E650a3D2E3DeFA503B406972492376FE5E61
+
+### Problème rencontré lors du TP
+
+- Mon premier contrat était trop gros pour être envoyé j'ai du enlever des fonction afin d eleur faire passer car sa taille en byte était trop grande (commit : 2c5f25762dcb9b560a15ee6b988c0e29c19eaacb, Ajout du contrat principale + FNT + test + script)
+- Mon deuxième code compile et je peux créer un contrat mais lorsque j'arrive sur Etherscan je me retriuve avec une adresse au lieu d'un contrat. J'ai aussi du supprmier beaucoup de test que je n'arrivais plus a appeler suite au refactoring de code que j'ai du effectuer
+
+
 ## 📄 Licence
 Projet à but pédagogique.

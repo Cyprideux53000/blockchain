@@ -1,0 +1,5 @@
+dossier script --> *.s.sol
+dossier src --> *.sol
+dossier test --> *.t.sol
+
+Déployer un smart contart = forge script script/DeploySimpleStorage.s.sol --rpc-url $SEPOLIA_RPC_HTTPS --private-key $PRIVATE_KEY --broadcast
