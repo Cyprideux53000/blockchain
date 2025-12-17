@@ -12,3 +12,8 @@ docs/
 
 # Dotenv file
 .env
+
+/lib
+/bin
+/broadcast
+/.github
